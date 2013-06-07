@@ -1,18 +1,45 @@
+/*
+	OBS:
+	Nos locais onde está escrito 'icons' será o nome da pasta que você está pegando as imagens, 
+	sendo que esses nomes devem estar exatamente iguais senão o sprite não será gerado ou será gerado incorretamente!
+
+	O layout pode ser: horizontal / vertical (default) / smart
+
+	Caso você queira que este arquivo pare de ser compilado pelo compass basta colocar um underline ( '_' ) no inicio do nome do arquivo.
+
+	Não se esqueça de renomear o nome do arquivo de sprite!!!
+ 
+	maiores referencias estão disponiveis em: http://compass-style.org/help/tutorials/spriting/
+
+*/
+/*distancia entre as imagens dentro do sprite*/
+/* line 66, icons/*.png */
 .icons-sprite, .icons-cara-01, .icons-cara-03, .icons-cara-04, .icons-cara-2 {
-  background: url('/images/icons-sea838efd34.png') no-repeat; }
+  background: url('/images/icons-s67590a5c8a.png') no-repeat;
+}
 
+/* line 60, ../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-cara-01 {
-  background-position: 0 -719px; }
+  background-position: 0 0;
+}
 
+/* line 60, ../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-cara-03 {
-  background-position: 0 -919px; }
+  background-position: -250px 0;
+}
 
+/* line 60, ../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-cara-04 {
-  background-position: 0 -240px; }
+  background-position: -500px 0;
+}
 
+/* line 60, ../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-cara-2 {
-  background-position: 0 0; }
+  background-position: -950px 0;
+}
 
+/* line 27, ../scss/main.scss */
 .cara-01 {
   height: 200px;
-  width: 200px; }
+  width: 200px;
+}
