@@ -1,0 +1,18 @@
+.icons-sprite, .icons-cara-01, .icons-cara-03, .icons-cara-04, .icons-cara-2 {
+  background: url('/images/icons-sea838efd34.png') no-repeat; }
+
+.icons-cara-01 {
+  background-position: 0 -719px; }
+
+.icons-cara-03 {
+  background-position: 0 -919px; }
+
+.icons-cara-04 {
+  background-position: 0 -240px; }
+
+.icons-cara-2 {
+  background-position: 0 0; }
+
+.cara-01 {
+  height: 200px;
+  width: 200px; }

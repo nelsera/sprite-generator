@@ -1,0 +1,14 @@
+@import "compass/utilities/sprites";
+
+$icon-layout: horizontal;
+@import "icons/*.png";
+
+@include all-icons-sprites;
+
+$height: icons-sprite-height(cara-01);
+$width: icons-sprite-width(cara-01);
+
+.cara-01 {
+  height: $height;
+  width: $width;
+}
