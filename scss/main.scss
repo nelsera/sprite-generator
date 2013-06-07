@@ -1,6 +1,22 @@
 @import "compass/utilities/sprites";
 
-$icon-layout: horizontal;
+/*
+	OBS:
+	Nos locais onde está escrito 'icons' será o nome da pasta que você está pegando as imagens, 
+	sendo que esses nomes devem estar exatamente iguais senão o sprite não será gerado ou será gerado incorretamente!
+
+	O layout pode ser: horizontal / vertical (default) / smart
+
+	Caso você queira que este arquivo pare de ser compilado pelo compass basta colocar um underline ( '_' ) no inicio do nome do arquivo.
+
+	Não se esqueça de renomear o nome do arquivo de sprite!!!
+ 
+	maiores referencias estão disponiveis em: http://compass-style.org/help/tutorials/spriting/
+
+*/
+
+$icons-layout: horizontal;
+$icons-spacing:50px; /*distancia entre as imagens dentro do sprite*/
 @import "icons/*.png";
 
 @include all-icons-sprites;
