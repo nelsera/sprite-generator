@@ -13,28 +13,23 @@
 
 */
 /* distancia entre as imagens dentro do sprite */
-.icons-sprite, .icons-facebook, .facebook, .icons-linkedin, .linkedin, .icons-twitter, .twitter, .icons-youtube, .youtube {
-  background: url('http://localhost/sprite-generator/images/icons-sd609cd6703.png') no-repeat; }
+.icons-sprite, .icons-facebook, .facebook, .icons-twitter, .twitter, .icons-youtube, .youtube {
+  background: url('http://localhost/sprite-generator/images/icons-s5c14ab1216.png') no-repeat; }
 
 .icons-facebook, .facebook {
   background-position: 0 0; }
   .icons-facebook:hover, .facebook:hover, .icons-facebook.facebook_hover, .facebook_hover.facebook, .icons-facebook.facebook-hover, .facebook-hover.facebook {
     background-position: -114px 0; }
 
-.icons-linkedin, .linkedin {
+.icons-twitter, .twitter {
   background-position: -228px 0; }
-  .icons-linkedin:hover, .linkedin:hover, .icons-linkedin.linkedin_hover, .linkedin_hover.linkedin, .icons-linkedin.linkedin-hover, .linkedin-hover.linkedin {
+  .icons-twitter:hover, .twitter:hover, .icons-twitter.twitter_hover, .twitter_hover.twitter, .icons-twitter.twitter-hover, .twitter-hover.twitter {
     background-position: -342px 0; }
 
-.icons-twitter, .twitter {
-  background-position: -456px 0; }
-  .icons-twitter:hover, .twitter:hover, .icons-twitter.twitter_hover, .twitter_hover.twitter, .icons-twitter.twitter-hover, .twitter-hover.twitter {
-    background-position: -570px 0; }
-
 .icons-youtube, .youtube {
-  background-position: -684px 0; }
+  background-position: -456px 0; }
   .icons-youtube:hover, .youtube:hover, .icons-youtube.youtube_hover, .youtube_hover.youtube, .icons-youtube.youtube-hover, .youtube-hover.youtube {
-    background-position: -798px 0; }
+    background-position: -570px 0; }
 
 .facebook {
   width: 64px;
@@ -49,12 +44,6 @@
   cursor: pointer; }
 
 .youtube {
-  width: 64px;
-  height: 64px;
-  float: left;
-  cursor: pointer; }
-
-.linkedin {
   width: 64px;
   height: 64px;
   float: left;

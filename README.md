@@ -9,9 +9,9 @@
 
 [Fork](https://help.github.com/articles/fork-a-repo) this project and:
 
-    $ git clone git@github.com:<username>/client.git
+    $ git clone git@github.com:<username>/sprite-generator.git
     $ cd sprite-generator
-    $ sass --compass --watch --trace scss:css
+    $ sass --compass --watch --trace scss/sprites.scss:css/sprites.css
 
 ## Contributing
 	
