@@ -1,3 +1,6 @@
+<img src="http://www.bugz.fr/wp-content/uploads/2012/11/compass-avatar.png" width="100px">
+
+
 # Compass sprite generator v0.1.0-build 
 
 ## Requirements
