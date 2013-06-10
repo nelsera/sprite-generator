@@ -2,6 +2,8 @@
 
 <img src="http://www.bugz.fr/wp-content/uploads/2012/11/compass-avatar.png" width="100px">
 
+<img src="http://upload.wikimedia.org/wikipedia/en/c/cb/Sass_Logo.gif" height="100px">
+
 ## Requirements
 
 * [Sass](http://sass-lang.com)
