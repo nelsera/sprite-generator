@@ -21,4 +21,4 @@
     $ git commit -am "Your commit"
     $ git push origin master
 
-Make the [Pull Request](https://help.github.com/articles/using-pull-requests) from your branch `master` to branch `master` on `nelsondelega/sprite-generator`.
+Make the [Pull Request](https://help.github.com/articles/using-pull-requests) from your branch `master` to branch `master` on [nelsondelega/sprite-generator](https://github.com/nelsondelega/sprite-generator).
