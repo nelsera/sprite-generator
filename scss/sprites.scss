@@ -16,15 +16,17 @@
 */
 
 $icons-layout: horizontal;
-$icons-spacing:50px; /*distancia entre as imagens dentro do sprite*/
-@import "icons/*.png";
+$icons-spacing: 50px; /* distancia entre as imagens dentro do sprite */
 
+@import "icons/*.png";
 @include all-icons-sprites;
 
-$height: icons-sprite-height(cara-01);
-$width: icons-sprite-width(cara-01);
-
-.cara-01 {
-  height: $height;
-  width: $width;
+@each $social in facebook, twitter, youtube, linkedin {
+ 	.#{$social} {
+	  	@extend .icons-#{$social};
+	  	width: icons-sprite-width(#{$social});
+		height: icons-sprite-height(#{$social});
+		float: left;
+		cursor: pointer;
+  	}
 }

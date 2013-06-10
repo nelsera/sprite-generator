@@ -1,0 +1,61 @@
+/*
+	OBS:
+	Nos locais onde está escrito 'icons' será o nome da pasta que você está pegando as imagens, 
+	sendo que esses nomes devem estar exatamente iguais senão o sprite não será gerado ou será gerado incorretamente!
+
+	O layout pode ser: horizontal / vertical (default) / smart
+
+	Caso você queira que este arquivo pare de ser compilado pelo compass basta colocar um underline ( '_' ) no inicio do nome do arquivo.
+
+	Não se esqueça de renomear o nome do arquivo de sprite!!!
+ 
+	maiores referencias estão disponiveis em: http://compass-style.org/help/tutorials/spriting/
+
+*/
+/* distancia entre as imagens dentro do sprite */
+.icons-sprite, .icons-facebook, .facebook, .icons-linkedin, .linkedin, .icons-twitter, .twitter, .icons-youtube, .youtube {
+  background: url('http://localhost/sprite-generator/images/icons-sd609cd6703.png') no-repeat; }
+
+.icons-facebook, .facebook {
+  background-position: 0 0; }
+  .icons-facebook:hover, .facebook:hover, .icons-facebook.facebook_hover, .facebook_hover.facebook, .icons-facebook.facebook-hover, .facebook-hover.facebook {
+    background-position: -114px 0; }
+
+.icons-linkedin, .linkedin {
+  background-position: -228px 0; }
+  .icons-linkedin:hover, .linkedin:hover, .icons-linkedin.linkedin_hover, .linkedin_hover.linkedin, .icons-linkedin.linkedin-hover, .linkedin-hover.linkedin {
+    background-position: -342px 0; }
+
+.icons-twitter, .twitter {
+  background-position: -456px 0; }
+  .icons-twitter:hover, .twitter:hover, .icons-twitter.twitter_hover, .twitter_hover.twitter, .icons-twitter.twitter-hover, .twitter-hover.twitter {
+    background-position: -570px 0; }
+
+.icons-youtube, .youtube {
+  background-position: -684px 0; }
+  .icons-youtube:hover, .youtube:hover, .icons-youtube.youtube_hover, .youtube_hover.youtube, .icons-youtube.youtube-hover, .youtube-hover.youtube {
+    background-position: -798px 0; }
+
+.facebook {
+  width: 64px;
+  height: 64px;
+  float: left;
+  cursor: pointer; }
+
+.twitter {
+  width: 64px;
+  height: 64px;
+  float: left;
+  cursor: pointer; }
+
+.youtube {
+  width: 64px;
+  height: 64px;
+  float: left;
+  cursor: pointer; }
+
+.linkedin {
+  width: 64px;
+  height: 64px;
+  float: left;
+  cursor: pointer; }
