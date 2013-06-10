@@ -19,12 +19,15 @@ $icons-spacing: 50px; // distancia entre as imagens dentro do sprite
 @import "icons/*.png";
 @include all-icons-sprites;
 
+.icon {
+	display: inline-table;
+	cursor: pointer;
+}
+
 @each $social in facebook, twitter, youtube {
  	.#{$social} {
-	  	@extend .icons-#{$social};
+	  	@extend .icon, .icons-#{$social};
 	  	width: icons-sprite-width(#{$social});
 		height: icons-sprite-height(#{$social});
-		display: inline-table;
-		cursor: pointer;
   	}
 }

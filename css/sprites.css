@@ -16,20 +16,18 @@
   .icons-youtube:hover, .youtube:hover, .icons-youtube.youtube_hover, .youtube_hover.youtube, .icons-youtube.youtube-hover, .youtube-hover.youtube {
     background-position: -570px 0; }
 
-.facebook {
-  width: 64px;
-  height: 64px;
+.icon, .facebook, .twitter, .youtube {
   display: inline-table;
   cursor: pointer; }
+
+.facebook {
+  width: 64px;
+  height: 64px; }
 
 .twitter {
   width: 64px;
-  height: 64px;
-  display: inline-table;
-  cursor: pointer; }
+  height: 64px; }
 
 .youtube {
   width: 64px;
-  height: 64px;
-  display: inline-table;
-  cursor: pointer; }
+  height: 64px; }
