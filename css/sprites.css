@@ -19,17 +19,17 @@
 .facebook {
   width: 64px;
   height: 64px;
-  float: left;
+  display: inline-table;
   cursor: pointer; }
 
 .twitter {
   width: 64px;
   height: 64px;
-  float: left;
+  display: inline-table;
   cursor: pointer; }
 
 .youtube {
   width: 64px;
   height: 64px;
-  float: left;
+  display: inline-table;
   cursor: pointer; }
