@@ -6,15 +6,18 @@
 * [Compass](http://compass-style.org)
 
 ## Installation
-
-[Fork](https://help.github.com/articles/fork-a-repo) this project and:
-
-    $ git clone git@github.com:<username>/sprite-generator.git
+	$ gem update --system
+	$ gem install sass
+	$ gem install compass
+	$ git clone git@github.com:nelsondelega/sprite-generator.git
     $ cd sprite-generator
     $ sass --compass --watch --trace scss/sprites.scss:css/sprites.css
 
 ## Contributing
-	
+
+[Fork](https://help.github.com/articles/fork-a-repo) this project and:
+
+    $ git clone git@github.com:<username>/sprite-generator.git	
 	$ git remote add owner git@github.com:nelsondelega/sprite-generator.git
     $ git pull owner develop
     $ git add .
