@@ -9,7 +9,7 @@
 	$ gem update --system
 	$ gem install sass
 	$ gem install compass
-	$ git clone git@github.com:nelsondelega/sprite-generator.git
+    $ git clone git://github.com/nelsondelega/sprite-generator.git
     $ cd sprite-generator
     $ sass --compass --watch --trace scss/sprites.scss:css/sprites.css
 
