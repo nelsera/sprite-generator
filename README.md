@@ -1,4 +1,4 @@
-# Compass sprite generator v0.1.0-build 
+# Compass sprite generator v0.1.1-build 
 
 ## Requirements
 
@@ -20,7 +20,7 @@
 
     $ git clone git@github.com:<username>/sprite-generator.git	
 	$ git remote add owner git@github.com:nelsondelega/sprite-generator.git
-    $ git pull owner develop
+    $ git pull owner master
     $ git add .
     $ git commit -am "Your commit"
     $ git push origin master
