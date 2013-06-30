@@ -1,5 +1,5 @@
 .icons-sprite, .icons-facebook, .facebook, .icons-twitter, .twitter, .icons-youtube, .youtube {
-  background: url('http://localhost/sprite-generator/images/icons-s5c14ab1216.png') no-repeat; }
+  background: url('../images/icons-s5c14ab1216.png') no-repeat; }
 
 .icons-facebook, .facebook {
   background-position: 0 0; }
