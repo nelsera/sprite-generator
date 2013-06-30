@@ -1,4 +1,6 @@
-# Compass sprite generator v0.1.1-build 
+# Compass sprite generator v0.1.1-build
+
+Css sprites using the compass css framework. 
 
 ## Requirements
 
