@@ -2,6 +2,7 @@
 
 ## Requirements
 
+* [RubyGems](https://rvm.io/rvm/install)
 * [Sass](http://sass-lang.com)
 * [Compass](http://compass-style.org)
 
