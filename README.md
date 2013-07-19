@@ -1,6 +1,18 @@
 # Compass sprite generator v0.1.1-build
 
-Css sprites using the compass css framework. 
+Css sprites using the compass css framework.
+
+## General Sprite Defaults
+
+    $icon-sprite-base-class : ".icon-sprite" !default;
+    $icon-sprite-dimensions : false !default;
+    $icon-position : 0% !default;
+    $icon-spacing : 0 !default;
+    $icon-repeat : no-repeat !default;
+    $icon-prefix : '' !default;
+    $icon-clean-up : true !default;
+    $icon-layout : vertical !default;
+    $icon-inline : false !default; 
 
 ## Requirements
 
