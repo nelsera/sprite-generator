@@ -12,7 +12,7 @@ Css sprites using the compass css framework.
     $icon-prefix : '' !default;
     $icon-clean-up : true !default;
     $icon-layout : vertical !default;
-    $icon-inline : false !default; 
+    $icon-inline : false !default;
 
 ## Requirements
 
@@ -26,13 +26,13 @@ Css sprites using the compass css framework.
 	$ gem install compass
     $ git clone git://github.com/nelsondelega/sprite-generator.git
     $ cd sprite-generator
-    $ sass --compass --watch --trace scss/sprites.scss:css/sprites.css
+    $ sass --compass --watch --trace sass/sprites.scss:css/sprites.css
 
 ## Contributing
 
 [Fork](https://help.github.com/articles/fork-a-repo) this project and:
 
-    $ git clone git@github.com:<username>/sprite-generator.git	
+    $ git clone git@github.com:<username>/sprite-generator.git
 	$ git remote add owner git@github.com:nelsondelega/sprite-generator.git
     $ git pull owner master
     $ git add .
