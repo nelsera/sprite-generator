@@ -1,21 +1,18 @@
 @import "compass/utilities/sprites";
 @import "compass/css3/inline-block";
 
-$icons-layout: horizontal;
-$icons-spacing: 5px;
+$icons-layout: smart;
 
 @import "icons/*.png";
 @include all-icons-sprites(true);
 
 .icon {
 	@include inline-block;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 @each $social in facebook, twitter, youtube {
- 	.#{$social} {
-	  	@extend .icon, .icons-#{$social};
-	  	width: icons-sprite-width(#{$social});
-		height: icons-sprite-height(#{$social});
-  	}
+    .#{$social} {
+        @extend .icon, .icons-#{$social};
+    }
 }

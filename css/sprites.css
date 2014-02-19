@@ -1,26 +1,26 @@
 .icons-sprite, .icons-facebook, .facebook, .icons-twitter, .twitter, .icons-youtube, .youtube {
-  background: url('../images/icons-s9ff2b3ec2f.png') no-repeat; }
+  background: url('../images/icons-s8099018207.png') no-repeat; }
 
 .icons-facebook, .facebook {
   background-position: 0 0;
   height: 64px;
   width: 64px; }
   .icons-facebook:hover, .facebook:hover, .icons-facebook.facebook_hover, .facebook_hover.facebook, .icons-facebook.facebook-hover, .facebook-hover.facebook {
-    background-position: -69px 0; }
+    background-position: 0 -64px; }
 
 .icons-twitter, .twitter {
-  background-position: -138px 0;
+  background-position: 0 -128px;
   height: 64px;
   width: 64px; }
   .icons-twitter:hover, .twitter:hover, .icons-twitter.twitter_hover, .twitter_hover.twitter, .icons-twitter.twitter-hover, .twitter-hover.twitter {
-    background-position: -207px 0; }
+    background-position: 0 -192px; }
 
 .icons-youtube, .youtube {
-  background-position: -276px 0;
+  background-position: 0 -256px;
   height: 64px;
   width: 64px; }
   .icons-youtube:hover, .youtube:hover, .icons-youtube.youtube_hover, .youtube_hover.youtube, .icons-youtube.youtube-hover, .youtube-hover.youtube {
-    background-position: -345px 0; }
+    background-position: 0 -320px; }
 
 .icon, .facebook, .twitter, .youtube {
   display: -moz-inline-stack;
@@ -30,15 +30,3 @@
   zoom: 1;
   *display: inline;
   cursor: pointer; }
-
-.facebook {
-  width: 64px;
-  height: 64px; }
-
-.twitter {
-  width: 64px;
-  height: 64px; }
-
-.youtube {
-  width: 64px;
-  height: 64px; }
