@@ -24,7 +24,7 @@ Css sprites using the compass css framework.
 	$ gem update --system
 	$ gem install sass
 	$ gem install compass
-    $ git clone git://github.com/marginelson/sprite-generator.git
+    $ git clone git://github.com/nelsera/sprite-generator.git
     $ cd sprite-generator
     $ sass --compass --watch --trace sass/sprites.scss:css/sprites.css
 
@@ -33,10 +33,10 @@ Css sprites using the compass css framework.
 [Fork](https://help.github.com/articles/fork-a-repo) this project and:
 
     $ git clone git@github.com:<username>/sprite-generator.git
-    $ git remote add owner git@github.com:marginelson/sprite-generator.git
+    $ git remote add owner git@github.com:nelsera/sprite-generator.git
     $ git pull owner master
     $ git add .
     $ git commit -am "Your commit"
     $ git push origin master
 
-Make the [Pull Request](https://help.github.com/articles/using-pull-requests) from your branch `master` to branch `master` on [marginelson/sprite-generator](https://github.com/marginelson/sprite-generator).
+Make the [Pull Request](https://help.github.com/articles/using-pull-requests) from your branch `master` to branch `master` on [nelsera/sprite-generator](https://github.com/nelsera/sprite-generator).
